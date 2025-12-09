@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Barcoder to access your camera"
+        }
+      ]
+    ],
     "name": "Barcoder",
     "slug": "Barcoder",
     "version": "1.0.0",
